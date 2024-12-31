@@ -1,0 +1,44 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "title": "Concerto di Musica Classica",
+      "date": "2024-01-15",
+      "location": "Teatro Comunale",
+      "totalSeats": 200,
+      "availableSeats": 150
+    },
+    {
+      "id": 2,
+      "title": "Workshop Angular",
+      "date": "2024-02-10",
+      "location": "Centro Congressi",
+      "totalSeats": 50,
+      "availableSeats": 20
+    },
+    {
+      "id": 3,
+      "title": "Esposizione d'Arte Moderna",
+      "date": "2024-03-05",
+      "location": "Galleria Nazionale",
+      "totalSeats": 100,
+      "availableSeats": 80
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "eventId": 1,
+      "userName": "Simone Cardinale",
+      "seatsBooked": 2,
+      "bookingDate": "2023-12-31"
+    },
+    {
+      "id": 2,
+      "eventId": 2,
+      "userName": "Maria Rossi",
+      "seatsBooked": 3,
+      "bookingDate": "2023-12-30"
+    }
+  ]
+}
