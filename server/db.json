@@ -23,6 +23,54 @@
       "location": "Galleria Nazionale",
       "totalSeats": 100,
       "availableSeats": 80
+    },
+    {
+      "id": 4,
+      "title": "Esposizione d'Arte Classica",
+      "date": "2024-10-08",
+      "location": "Palermo",
+      "totalSeats": 120,
+      "availableSeats": 32
+    },
+    {
+      "id": 5,
+      "title": "aaa",
+      "date": "2025-01-09",
+      "location": "Roma",
+      "totalSeats": 123,
+      "availableSeats": 250
+    },
+    {
+      "id": 6,
+      "title": "ee",
+      "date": "2025-01-09",
+      "location": "Bari",
+      "totalSeats": 124,
+      "availableSeats": 100
+    },
+    {
+      "id": 8,
+      "title": "Test",
+      "date": "2025-01-11",
+      "location": "Test",
+      "totalSeats": 300,
+      "availableSeats": 250
+    },
+    {
+      "id": 9,
+      "title": "Test2",
+      "date": "2025-01-23",
+      "location": "Test2",
+      "totalSeats": 123,
+      "availableSeats": 80
+    },
+    {
+      "id": 10,
+      "title": "Sessione di studio",
+      "date": "2025-02-20",
+      "location": "A me casa",
+      "totalSeats": 4,
+      "availableSeats": 6
     }
   ],
   "bookings": [
