@@ -43,8 +43,8 @@ export const eventiFeatures =  createFeature({
     on(EventiActions.addEventiSuccess, (state, action): EventiState => ({...state, eventi: [...state.eventi, action.event]})),
     on(EventiActions.addEventiFail, (state) => ({...state, isLoading: false, hasError: true})),
     on(EventiActions.editEventi, (state, action): EventiState => ({...state, isLoading: true, hasError: false})),
-    on(EventiActions.editEventiSuccess, (state, action): EventiState => ({...state, isLoading: false, hasError: false, eventi: state.eventi.map(el => el.id === action.event.id ? action.event : el)})),
-    on(EventiActions.editEventiFail, (state): EventiState => ({...state, isLoading: false, hasError: true}))
+    on(EventiActions.editEventiSuccess, (state, action): EventiState => ({...state, isLoading: false, hasError: false, eventi: state.eventi.map(el => el.id === action.event.id ? action.event : el) as Eventi[]})),
+
   ),
 });
 

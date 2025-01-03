@@ -13,8 +13,8 @@ export const EventiActions =  createActionGroup({
     "Add Eventi":  props<{event: Eventi}>(),
     "Add Eventi Success": props<{event: Eventi}>(),
     "Add Eventi Fail": emptyProps(),
-    "Edit Eventi": props<{event: Eventi}>(),
-    "Edit Eventi Success": props<{event: Eventi}>(),
+    "Edit Eventi": props<{event: Partial<Eventi>}>(),
+    "Edit Eventi Success": props<{event: Partial<Eventi>}>(),
     "Edit Eventi Fail": emptyProps(),
   }
 })

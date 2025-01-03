@@ -5,8 +5,8 @@
       "title": "Concerto di Musica Classica",
       "date": "2024-01-15",
       "location": "Teatro Comunale",
-      "totalSeats": 200,
-      "availableSeats": 150
+      "totalSeats": 210,
+      "availableSeats": 145
     },
     {
       "id": 2,
